@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body onload="goi()">
+<script>
+    function test(evt) {
+
+        dd = evt.keyCode;
+        alert(dd);
+    }
+    function goi() {
+        window.addEventListener('keydown',test);
+
+    }
+</script>
+
+</body>
+</html>
